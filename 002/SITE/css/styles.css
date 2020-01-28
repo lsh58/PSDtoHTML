@@ -1,48 +1,87 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700|Roboto:300&display=swap');
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+/* layout */
+.container{width: 1130px; margin: 0 auto;}
+
+
+/* Typography */
+/* Myriad Pro - .banner ul li h2, .banner ul li a, 
+OpenSans - .banner ul li p, .main_content .hover_content a, footer .subscribe p, footer .subscribe input type="submit", footer .copy
+OpenSans italic - .main_content p a, footer .subscribe input type="email"
+Roboto - .main_content h3, .main_content h4
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body{
+	font:normal 18px/27px 'Open Sans', sans-serif;
+	color:#2e2e2e;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.main_tt{
+	font: normal 55px/1 'Roboto', sans-serif;
+	color: #fff;
+	letter-spacing: 0.025em;
 }
-body {
-	line-height: 1;
+.content_tt{
+	font: normal 32px/1 'Roboto', sans-serif;
+	letter-spacing: 0.025em;
 }
-ol, ul {
-	list-style: none;
+.content_sub_tt{
+	
 }
-blockquote, q {
-	quotes: none;
+/* header */
+header .container{
+	background:rgba(0,0,0,0.6);
+	padding: 27px 80px;
+	overflow: hidden;
+	position: fixed;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+header .logo{
+	width: 54px;
+	height: 54px;
+	border: 6px solid #fff;
+	border-radius: 100%;
+	float:left;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+header .logo i{
+	color: #fff;
+	text-align: center;
+	font-size:22px;
+	padding:16px;
 }
+header nav{
+	float:right;
+}
+header nav ul{
+	display: flex;
+	align-content: flex-end;
+}
+header nav ul li{
+	padding: 18px 0;
+}
+header nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	margin-left:28px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+/* banner */
+
+
+.banner h2{
+	
+
+}
+.banner ul .slide1{
+	height: 600px;
+	background: url(../images/slide-1-bg.jpg) no-repeat center top / cover ;
+}
+/* main_content */
+
+/* about */
+
+/* footer */
