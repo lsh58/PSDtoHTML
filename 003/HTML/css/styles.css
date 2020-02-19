@@ -42,12 +42,32 @@ table {
 
 ul, ol, li { list-style-type: none }
 
+img{ vertical-align: top;}
+
+i{color: #fff;}
+
+/* font-family : 'Gentium Basic', serif; */
 
 /* 3. TYPOGRAPHY AND GENERAL STYLING */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-header{}
-
-
+h1,h2,h3,h4{
+    font-family : 'Gentium Basic', serif;
+}
+em, .primary_color{
+    color: #f93f1c;
+}
 
 /* LAYOUT */
 
+/* HEADER */
+
+/* FORM */
+
+/* PROGRESS */
+
+/* FREEBIE */
+
+/* FOOTER */
